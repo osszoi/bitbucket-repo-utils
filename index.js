@@ -205,7 +205,7 @@ async function checkBranchExists(username, appPassword, repoSlug, branch) {
 	}
 }
 
-export default {
+module.exports = {
 	approvePR,
 	declinePR,
 	mergePR,
