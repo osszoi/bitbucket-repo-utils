@@ -1,0 +1,16 @@
+{
+  "name": "bitbucket-repo-utils",
+  "version": "0.0.13",
+  "description": "Provides access to various bitbucket functions",
+  "main": "index.mjs",
+  "type": "module",
+  "author": "Eduardo Lorenzo <ejlorenzo19@gmail.com>",
+  "license": "MIT",
+  "git": "https://github.com/osszoi/bitbucket-repo-utils",
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "scripts": {
+    "p": "npm version patch && npm publish"
+  }
+}
