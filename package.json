@@ -1,6 +1,6 @@
 {
   "name": "bitbucket-repo-utils",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Provides access to various bitbucket functions",
   "main": "index.mjs",
   "type": "module",
