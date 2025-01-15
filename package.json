@@ -1,6 +1,6 @@
 {
   "name": "bitbucket-repo-utils",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Provides access to various bitbucket functions",
   "main": "index.js",
   "author": "Eduardo Lorenzo <ejlorenzo19@gmail.com>",
