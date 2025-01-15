@@ -193,12 +193,15 @@ async function createPullRequest(
 
 async function checkBranchExists(username, appPassword, repoSlug, branch) {
 	try {
-		await axios.get(`${baseUrl}/${repoSlug}/refs/branches/${branch}`, {
-			auth: {
-				username,
-				password: appPassword
+		await axios.get(
+			`https://api.bitbucket.org/2.0/repositories/${repoSlug}/refs/branches/${branch}`,
+			{
+				auth: {
+					username,
+					password: appPassword
+				}
 			}
-		});
+		);
 
 		return true;
 	} catch (error) {
