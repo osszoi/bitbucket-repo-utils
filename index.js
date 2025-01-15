@@ -1,13 +1,9 @@
-import axios from 'axios';
-import { execSync } from 'child_process';
+const axios = require('axios');
+const { execSync } = require('child_process');
 
 // Config part
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const fs = require('fs');
+const path = require('path');
 
 const configFilePath = path.join(__dirname, 'config.json');
 
